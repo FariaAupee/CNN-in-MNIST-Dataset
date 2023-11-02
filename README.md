@@ -1,8 +1,9 @@
-#Fashion MNIST Image Classification
-Overview
+# Fashion MNIST Image Classification
+
+# Overview
 This project demonstrates an image classification model using the Fashion MNIST dataset. The dataset consists of grayscale images of fashion items, and our goal is to classify these items into ten different categories.
 
-Requirements
+# Requirements
 Python 3.x
 Jupyter Notebook (for running the code interactively)
 Libraries listed in requirements.txt (install them using pip install -r requirements.txt)
