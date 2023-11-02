@@ -5,7 +5,7 @@ This project demonstrates an image classification model using the Fashion MNIST 
 
 # Requirements
 Python 3
-Libraries listed in requirements.txt (install them using pip install -r requirements.txt)
+Libraries listed in requirements.txt (install them using ```pip install -r requirements.txt``` )
 # Dataset
 The Fashion MNIST dataset used in this project is available at https://www.kaggle.com/datasets/zalando-research/fashionmnist/data. It includes a training dataset (train.csv) and a test dataset (test.csv).
 
@@ -25,7 +25,11 @@ To enhance accuracy and model performance, the project incorporates human expert
 Install the required Python libraries by running:
 
 ```pip install -r requirements.txt```
-Load the Fashion MNIST dataset by downloading train.csv and test.csv from the dataset source and place them in the project directory.
+Load the Fashion MNIST dataset by downloading fashion-mnist_train.csv and fashion-mnist_test.csv from the dataset source and place them in the project directory.
+Run the evaluate_model.py file using the following format.
+
+```python evaluate_model.py file_path```
+Here file_path must be the folder which contains the dataset. (eg "D:/file") not the path to csv. 
 
 # Author
 Faria Sultana
